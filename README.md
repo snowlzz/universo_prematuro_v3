@@ -20,9 +20,9 @@ No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado p
 
 Como este é um aplicativo com muitos "states" e com diversas páginas, utilizei um pacote chamado MOBX (para gerenciar o estado da aplicação com geração de código) e também o Modular para injeção e inversão de dependencias.
 
-### MOBX
+    ### MOBX
 
-MOBX é uma biblioteca de gerenciamento de estado para aplicativos em JavaScript e Dart. Ele permite que os desenvolvedores definam estados observáveis em seus aplicativos e atualizem automaticamente a interface do usuário sempre que houver uma mudança no estado.
+        MOBX é uma biblioteca de gerenciamento de estado para aplicativos em JavaScript e Dart. Ele permite que os desenvolvedores definam estados observáveis em seus aplicativos e atualizem automaticamente a interface do usuário sempre que houver uma mudança no estado.
 
 O MOBX é baseado no padrão de arquitetura Flux, que enfatiza a unidirecionalidade do fluxo de dados na aplicação. Ele também suporta a programação reativa, o que significa que os desenvolvedores podem definir expressões computacionais que se atualizam automaticamente sempre que o estado subjacente é alterado.
 
