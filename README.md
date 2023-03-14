@@ -22,10 +22,10 @@ No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado p
 
 Para questões de legibilidade, optei por usar o padrão de pastas do MOBX e do Modular, juntamente com a arquitetura de pastas do Clean Dart.
 Dentro de cada pasta com o nome do módulo, temos a seguinte divisão: <br>
-    - **Domain:** A Camada Presenter fica responsável por declarar as entradas, saídas e interações da aplicação. Usando o Flutter como exemplo, hospedaremos os Widgets, Pages e também Alguma Gerência de Estado<br>
-    - **External:**<br>
-    - **Infra:**<br>
-    - **Presenter:**<br>
+    - **Domain:** A camada de Domain hospedará as Regras de Negócio Corporativa(Entity) e da Aplicação(Usecase). Nossas Entidades devem ser objetos simples podendo conter regras de validação dos seus dados por meio de funções ou ValueObjects. A Entidade não deve usar nenhum objeto das outras camadas.Os Casos de Uso devem executar a lógica necessária para resolver o problema. Se o Caso de Uso precisar de algum acesso externo então esse acesso deve ser feito por meio de contratos de interface que serão implementados em uma camada de mais baixo nível.<br><br>
+    - **External:** Aqui começaremos a implementar os acessos externos e que dependem de um hardware, package ou acesso muito específico.Basicamente a camada External deve conter tudo aquilo que terá grandes chances de ser alterado sem que o programador possa intervir diretamente no projeto.<br><br>
+    - **Infra:** Esta camada dá suporte a camada Domain implementando suas interfaces. Para isso, adapta os dados externos para que possa cumprir os contratos do domínio.<br><br>
+    - **Presenter:** A Camada Presenter fica responsável por declarar as entradas, saídas e interações da aplicação. Usando o Flutter como exemplo, hospedaremos os Widgets, Pages e também Alguma Gerência de Estado<br>
 
 
 ## Gerencia de Estados
