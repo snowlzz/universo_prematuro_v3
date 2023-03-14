@@ -18,7 +18,7 @@ No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado p
 
 
 ## Camadas da Aplicação
-[Arquitetura](images/img3.png)
+![Arquitetura](https://github.com/Flutterando/Clean-Dart/blob/master/imgs/img3.png)
 
 
 
