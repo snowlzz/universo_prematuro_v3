@@ -18,7 +18,7 @@ No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado p
 
 
 ## Camadas da Aplicação
-![alt text](img3.png)
+![alt text](images/img3.png)
 
 
 ## Gerencia de Estados
