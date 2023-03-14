@@ -2,7 +2,7 @@
 
 Projeto desenvolvolvido para auxilio de mães de crianças pré-termo
 
-## Arquitetura
+# Arquitetura
 
 A arquitetura escolhida chama-se Clean Dart, mais informações abaixo<br>
 [Clean Dart](https://github.com/Flutterando/Clean-Dart)
@@ -16,13 +16,18 @@ Esta arquitetura também incentiva o uso de padrões de programação como Inje�
 
 No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado pois já temos toda a UI do aplicativo.
 
+
+## Camadas da Aplicação
+![alt text](img3.png)
+
+
 ## Gerencia de Estados
 
 Como este é um aplicativo com muitos "states" e com diversas páginas, utilizei um pacote chamado MOBX (para gerenciar o estado da aplicação com geração de código) e também o Modular para injeção e inversão de dependencias.
 
-    ### MOBX
+## MOBX
 
-        MOBX é uma biblioteca de gerenciamento de estado para aplicativos em JavaScript e Dart. Ele permite que os desenvolvedores definam estados observáveis em seus aplicativos e atualizem automaticamente a interface do usuário sempre que houver uma mudança no estado.
+MOBX é uma biblioteca de gerenciamento de estado para aplicativos em JavaScript e Dart. Ele permite que os desenvolvedores definam estados observáveis em seus aplicativos e atualizem automaticamente a interface do usuário sempre que houver uma mudança no estado.
 
 O MOBX é baseado no padrão de arquitetura Flux, que enfatiza a unidirecionalidade do fluxo de dados na aplicação. Ele também suporta a programação reativa, o que significa que os desenvolvedores podem definir expressões computacionais que se atualizam automaticamente sempre que o estado subjacente é alterado.
 
