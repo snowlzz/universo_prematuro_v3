@@ -20,6 +20,12 @@ No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado p
 ## Camadas da Aplicação
 ![Arquitetura](https://github.com/Flutterando/Clean-Dart/blob/master/imgs/img3.png)
 
+Para questões de legibilidade, optei por usar o padrão de pastas do MOBX e do Modular, juntamente com a arquitetura de pastas do Clean Dart.
+Dentro de cada pasta com o nome do módulo, temos a seguinte divisão: 
+    - **Domain:**
+    - **External:**
+    - **Infra:**
+    - **Presenter:**
 
 
 ## Gerencia de Estados
