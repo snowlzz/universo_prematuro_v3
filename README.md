@@ -22,7 +22,8 @@ No caso desta versão do projeto, a idéia de utilizar TDD foi deixada de lado p
 
 Para questões de legibilidade, optei por usar o padrão de pastas do MOBX e do Modular, juntamente com a arquitetura de pastas do Clean Dart.
 Dentro de cada pasta com o nome do módulo, temos a seguinte divisão: <br>
-    - **Domain:**<br>
+    - **Domain:**A Camada Presenter fica responsável por declarar as entradas, saídas e interações da aplicação.
+                Usando o Flutter como exemplo, hospedaremos os Widgets, Pages e também Alguma Gerência de Estado<br>
     - **External:**<br>
     - **Infra:**<br>
     - **Presenter:**<br>
